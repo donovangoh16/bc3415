@@ -1,4 +1,22 @@
-# Ignore Python virtual environment
+# Python
 venv/
 .venv/
+__pycache__/
+.pytest_cache/
+*.pyc
 .env
+
+# Node / Frontend
+node_modules/
+dist/
+.vite/
+agentx/node_modules/
+agentx/dist/
+agentx/.vite/
+
+# OS / tooling
+.DS_Store
+*.log
+*.local
+.idea/
+.vscode/
