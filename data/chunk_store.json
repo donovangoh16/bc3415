@@ -1,197 +1,107 @@
 [
   {
     "id": "bankxxx-0-0",
-    "text": "■ Bank XXX Call Centre Officer Reference Guide — \nPayments & Transfer Services (Revised) \nThis guide provides call centre officers with practical advice on how to handle customer \nenquiries about payments and transfers in Bank XXX’s mobile banking app. It focuses on \nwhat to be aware of, how to respond, and how to maintain customer trust while ensuring \nfraud prevention. \n \n \nTransaction Limits \nW",
+    "text": "■ Bank XXX Call Centre Officer Reference Guide — \nPayments & Transfer Services (Revised) \nThis guide provides call centre officers with practical advice on how to handle customer \nenquiries about payments and transfers in Bank XXX’s mobile banking app. It focuses on \nwhat to be aware of, how to respond, and how to maintain customer trust while ensuring \nfraud prevention. \n \n \nTransaction Limits \nWhen a transfer fails or cannot be completed, officers should first check whether the \ncustomer has reached their daily or per-transaction limit. \nIf the transaction limit has been hit, the issue is that the transfer amount exceeds the \ncurrent limit. The appropriate plan is to guide the customer to either increase their limit or \nreduce the transaction amount. \nIf the customer has recently increas",
     "source": "docs/bankxxx_transaction_guidelines.pdf#0"
   },
   {
     "id": "bankxxx-0-1",
-    "text": "ring \nfraud prevention. \n \n \nTransaction Limits \nWhen a transfer fails or cannot be completed, officers should first check whether the \ncustomer has reached their daily or per-transaction limit. \nIf the transaction limit has been hit, the issue is that the transfer amount exceeds the \ncurrent limit. The appropriate plan is to guide the customer to either increase their limit or \nreduce the transac",
+    "text": "either increase their limit or \nreduce the transaction amount. \nIf the customer has recently increased their transaction limit, the issue is that the new limit \nis not yet active because of the 12-hour cooling period that applies for security reasons. \nDuring this time, transactions above the previous limit will still be blocked. The best plan is \nto advise the customer to wait until the cooling period ends, or, if the transaction is urgent, \nto make smaller transfers within the old limit until the new one takes effect. Reassure the \ncustomer that this waiting period is a deliberate safety feature, not a system fault. \n \nAdding or Managing Payees \n \nCustomers must have a registered payee for any transaction above $1,000. \nIf the customer tries to transfer more than $1,000 without a payee,",
     "source": "docs/bankxxx_transaction_guidelines.pdf#0"
   },
   {
     "id": "bankxxx-0-2",
-    "text": "either increase their limit or \nreduce the transaction amount. \nIf the customer has recently increased their transaction limit, the issue is that the new limit \nis not yet active because of the 12-hour cooling period that applies for security reasons. \nDuring this time, transactions above the previous limit will still be blocked. The best plan is \nto advise the customer to wait until the cooling p",
+    "text": "any transaction above $1,000. \nIf the customer tries to transfer more than $1,000 without a payee, the issue is that no \npayee has been set up for that amount. The plan is to either add a new payee or complete \na smaller transfer under $1,000, which does not require a payee. \nIf the customer recently added a new payee, the issue is likely that the payee is still within \nthe 12-hour activation (cooling) period before funds can be sent. This restriction prevents \nfraudsters from adding unauthorized recipients. The plan is to wait until the cooling period \nends, or, if the payment is urgent, to send a smaller amount under $1,000 that does not \nrequire a payee. \n \nTransfers and Scheduled Payments \nIf a customer says their transfer didn’t go through: first check whether the transfer was \nsched",
     "source": "docs/bankxxx_transaction_guidelines.pdf#0"
   },
   {
     "id": "bankxxx-0-3",
-    "text": "to advise the customer to wait until the cooling period ends, or, if the transaction is urgent, \nto make smaller transfers within the old limit until the new one takes effect. Reassure the \ncustomer that this waiting period is a deliberate safety feature, not a system fault. \n \nAdding or Managing Payees \n \nCustomers must have a registered payee for any transaction above $1,000. \nIf the customer tr",
+    "text": "ts \nIf a customer says their transfer didn’t go through: first check whether the transfer was \nscheduled for a future date or saved as a draft. Confirm if step-up verification (digital token \nor OTP) was completed. Transfers can also be held for internal fraud review if patterns \nappear unusual. Avoid giving technical details — instead say: 'Sometimes our system \n\nperforms a quick safety check before confirming certain transactions. It will go through \nautomatically once cleared.' Encourage customers to always check confirmation \nmessages or email receipts before assuming failure. \n \n \nOverseas and Cross-Border Payments \nBe aware that exchange rates for cross-border or QR payments are indicative and can \nrefresh before confirmation. Some cross-border schemes have daily limits (for example,",
     "source": "docs/bankxxx_transaction_guidelines.pdf#0"
   },
   {
     "id": "bankxxx-0-4",
-    "text": "any transaction above $1,000. \nIf the customer tries to transfer more than $1,000 without a payee, the issue is that no \npayee has been set up for that amount. The plan is to either add a new payee or complete \na smaller transfer under $1,000, which does not require a payee. \nIf the customer recently added a new payee, the issue is likely that the payee is still within \nthe 12-hour activation (co",
+    "text": "tive and can \nrefresh before confirmation. Some cross-border schemes have daily limits (for example, \nPromptPay Thailand » S$1,000/day). If a customer mentions 'rate expired' or 'payment \nfailed,' suggest they refresh or retry later. Remind them never to share screenshots or QR \ncodes that show account information. \n \n \nPayNow and QR Code Use \nRemind customers that linking their NRIC/FIN or mobile number directs incoming funds to \nthe selected account. Ensure they always review recipient details carefully before \nconfirming a payment. For receiving money, QR codes must be generated from the official \nBank XXX app. If customers are asked to scan a code from an unknown source, advise \nthem not to proceed and report potential scams. \n \n \nBill Payments and Non-Bank Transfers \nIf a bill payment",
     "source": "docs/bankxxx_transaction_guidelines.pdf#0"
   },
   {
     "id": "bankxxx-0-5",
-    "text": "payee is still within \nthe 12-hour activation (cooling) period before funds can be sent. This restriction prevents \nfraudsters from adding unauthorized recipients. The plan is to wait until the cooling period \nends, or, if the payment is urgent, to send a smaller amount under $1,000 that does not \nrequire a payee. \n \nTransfers and Scheduled Payments \nIf a customer says their transfer didn’t go th",
+    "text": "to proceed and report potential scams. \n \n \nBill Payments and Non-Bank Transfers \nIf a bill payment fails, first verify the biller name and reference number. Wrong reference \nnumbers may post to another account. For fintech wallets or NFIs, explain that minor \ndelays can happen due to partner processing. Never promise instant reversals — record \nthe transaction reference, inform the customer of the review process, and escalate as \nrequired. \n \n \nElectronic Deferred Payments (EDP / EDP+) \nEDP transactions are typically used by corporate or high-value customers. Always clarify \nwhether the caller is the issuer or recipient — this determines what actions they can take. \nAdvise them to review payment details carefully before confirming, cancelling, or rejecting, \nas these are legally binding.",
     "source": "docs/bankxxx_transaction_guidelines.pdf#0"
   },
   {
     "id": "bankxxx-0-6",
-    "text": "ts \nIf a customer says their transfer didn’t go through: first check whether the transfer was \nscheduled for a future date or saved as a draft. Confirm if step-up verification (digital token \nor OTP) was completed. Transfers can also be held for internal fraud review if patterns \nappear unusual. Avoid giving technical details — instead say: 'Sometimes our system \n\nperforms a quick safety check bef",
-    "source": "docs/bankxxx_transaction_guidelines.pdf#0"
-  },
-  {
-    "id": "bankxxx-0-7",
-    "text": "mes our system \n\nperforms a quick safety check before confirming certain transactions. It will go through \nautomatically once cleared.' Encourage customers to always check confirmation \nmessages or email receipts before assuming failure. \n \n \nOverseas and Cross-Border Payments \nBe aware that exchange rates for cross-border or QR payments are indicative and can \nrefresh before confirmation. Some cr",
-    "source": "docs/bankxxx_transaction_guidelines.pdf#0"
-  },
-  {
-    "id": "bankxxx-0-8",
-    "text": "tive and can \nrefresh before confirmation. Some cross-border schemes have daily limits (for example, \nPromptPay Thailand » S$1,000/day). If a customer mentions 'rate expired' or 'payment \nfailed,' suggest they refresh or retry later. Remind them never to share screenshots or QR \ncodes that show account information. \n \n \nPayNow and QR Code Use \nRemind customers that linking their NRIC/FIN or mobile",
-    "source": "docs/bankxxx_transaction_guidelines.pdf#0"
-  },
-  {
-    "id": "bankxxx-0-9",
-    "text": "nd customers that linking their NRIC/FIN or mobile number directs incoming funds to \nthe selected account. Ensure they always review recipient details carefully before \nconfirming a payment. For receiving money, QR codes must be generated from the official \nBank XXX app. If customers are asked to scan a code from an unknown source, advise \nthem not to proceed and report potential scams. \n \n \nBill",
-    "source": "docs/bankxxx_transaction_guidelines.pdf#0"
-  },
-  {
-    "id": "bankxxx-0-10",
-    "text": "to proceed and report potential scams. \n \n \nBill Payments and Non-Bank Transfers \nIf a bill payment fails, first verify the biller name and reference number. Wrong reference \nnumbers may post to another account. For fintech wallets or NFIs, explain that minor \ndelays can happen due to partner processing. Never promise instant reversals — record \nthe transaction reference, inform the customer of t",
-    "source": "docs/bankxxx_transaction_guidelines.pdf#0"
-  },
-  {
-    "id": "bankxxx-0-11",
-    "text": "he transaction reference, inform the customer of the review process, and escalate as \nrequired. \n \n \nElectronic Deferred Payments (EDP / EDP+) \nEDP transactions are typically used by corporate or high-value customers. Always clarify \nwhether the caller is the issuer or recipient — this determines what actions they can take. \nAdvise them to review payment details carefully before confirming, cancel",
-    "source": "docs/bankxxx_transaction_guidelines.pdf#0"
-  },
-  {
-    "id": "bankxxx-0-12",
     "text": "ayment details carefully before confirming, cancelling, or rejecting, \nas these are legally binding. \n \n \nDocumentation and After-Call Notes \nRecord the exact issue and the verification steps completed, Good notes ensure \nsmooth handovers if follow-up is needed. \n \n•",
     "source": "docs/bankxxx_transaction_guidelines.pdf#0"
   },
   {
     "id": "abs-0-0",
-    "text": "Bank XXX Call Centre Officer Guide — Fraud\nAwareness and Response\nContext: Why Fraud Awareness Matters\nFraud prevention has become one of the most critical responsibilities for frontline officers at Bank\nXXX. In recent years, scams have evolved from simple phishing messages into highly coordinated,\nemotionally manipulative schemes that exploit customer trust and urgency. Fraudsters now\nimpersonate",
+    "text": "Bank XXX Call Centre Officer Guide — Fraud\nAwareness and Response\nContext: Why Fraud Awareness Matters\nFraud prevention has become one of the most critical responsibilities for frontline officers at Bank\nXXX. In recent years, scams have evolved from simple phishing messages into highly coordinated,\nemotionally manipulative schemes that exploit customer trust and urgency. Fraudsters now\nimpersonate not only bank employees but also government agencies, delivery services, and even\nlaw enforcement, often using official logos, spoofed numbers, and convincing language to appear\nlegitimate. Customers typically contact the bank after they have unknowingly authorized a\ntransaction — believing they were securing their accounts, paying legitimate bills, or complying with\ninstructions from someone cla",
     "source": "docs/BankXXX_Call_Centre_Guide_Fraud_Awareness_and_Response.pdf#0"
   },
   {
     "id": "abs-0-1",
-    "text": "omer trust and urgency. Fraudsters now\nimpersonate not only bank employees but also government agencies, delivery services, and even\nlaw enforcement, often using official logos, spoofed numbers, and convincing language to appear\nlegitimate. Customers typically contact the bank after they have unknowingly authorized a\ntransaction — believing they were securing their accounts, paying legitimate bill",
+    "text": "re securing their accounts, paying legitimate bills, or complying with\ninstructions from someone claiming authority. Because many of these scams rely on social\nengineering rather than hacking, victims are often unaware that they have been manipulated until\nthe funds have left their accounts. Call centre officers are, therefore, the first line of defense in\ndetecting and responding to fraud. Their ability to identify red flags during a call — such as unusual\nbehavior, nervous tone, external coaching, or repeated limit changes — can stop financial losses in\nprogress. An empathetic and structured response also helps rebuild customer trust in the bank,\nensuring that customers feel supported rather than blamed. Effective fraud response combines\nthree key elements: Speed, Accuracy, and Empathy.",
     "source": "docs/BankXXX_Call_Centre_Guide_Fraud_Awareness_and_Response.pdf#0"
   },
   {
     "id": "abs-0-2",
-    "text": "re securing their accounts, paying legitimate bills, or complying with\ninstructions from someone claiming authority. Because many of these scams rely on social\nengineering rather than hacking, victims are often unaware that they have been manipulated until\nthe funds have left their accounts. Call centre officers are, therefore, the first line of defense in\ndetecting and responding to fraud. Their",
+    "text": "er than blamed. Effective fraud response combines\nthree key elements: Speed, Accuracy, and Empathy. Acting quickly to freeze or block accounts\nreduces potential exposure. Gathering detailed, factual information supports investigations.\nReassuring affected customers with calm, professional communication ensures confidence in the\nbank’s systems and care. Officers must be equipped not only with system knowledge but also with\npsychological awareness — understanding how scammers manipulate emotions like fear, urgency,\nor authority. By maintaining composure, following procedures, and educating customers, call centre\nstaff play a direct role in protecting lives and livelihoods from financial harm.\nHow Fraud Is Detected\nBank XXX’s fraud detection systems use a combination of transaction pattern an",
     "source": "docs/BankXXX_Call_Centre_Guide_Fraud_Awareness_and_Response.pdf#0"
   },
   {
     "id": "abs-0-3",
-    "text": "fense in\ndetecting and responding to fraud. Their ability to identify red flags during a call — such as unusual\nbehavior, nervous tone, external coaching, or repeated limit changes — can stop financial losses in\nprogress. An empathetic and structured response also helps rebuild customer trust in the bank,\nensuring that customers feel supported rather than blamed. Effective fraud response combines",
+    "text": "How Fraud Is Detected\nBank XXX’s fraud detection systems use a combination of transaction pattern analysis, device\nfingerprinting, behavioral monitoring, and customer reporting to identify possible fraud. Red flags\nmay include unusually large or urgent transfers, transactions to new payees added recently,\nmultiple limit changes in a short period, or transfers following a suspicious phone call or message. If\nany of these indicators appear, officers should act immediately to secure the customer’s account.\nResponding to Suspected Fraud – 4 Key Steps\nStep 1 – Verify the Fraudulent Transaction and Secure the Account\nOnce the customer reports a suspicious or unauthorized transaction, calmly confirm the details —\nthe amount, time, payee, and channel used. Secure all related accounts immediately b",
     "source": "docs/BankXXX_Call_Centre_Guide_Fraud_Awareness_and_Response.pdf#0"
   },
   {
     "id": "abs-0-4",
-    "text": "er than blamed. Effective fraud response combines\nthree key elements: Speed, Accuracy, and Empathy. Acting quickly to freeze or block accounts\nreduces potential exposure. Gathering detailed, factual information supports investigations.\nReassuring affected customers with calm, professional communication ensures confidence in the\nbank’s systems and care. Officers must be equipped not only with syste",
+    "text": "m the details —\nthe amount, time, payee, and channel used. Secure all related accounts immediately by freezing\naccess, blocking cards, or disabling digital services. If available, guide the customer to trigger the\nKill Switch or equivalent emergency lock function.\nStep 2 – Protect Customer Information and Contain Exposure\n\nAssist the customer in changing passwords, disabling compromised devices, and reviewing linked\nservices. Ensure no further unauthorized logins can occur. Document all containment measures\nclearly in the internal system.\nStep 3 – Advise the Customer to Lodge a Police Report and Escalate Internally\nExplain that filing a police report is essential for formal investigation and possible recovery. Provide\nclear guidance on how and where to file — for example, via the SPF e-ser",
     "source": "docs/BankXXX_Call_Centre_Guide_Fraud_Awareness_and_Response.pdf#0"
   },
   {
     "id": "abs-0-5",
-    "text": "are. Officers must be equipped not only with system knowledge but also with\npsychological awareness — understanding how scammers manipulate emotions like fear, urgency,\nor authority. By maintaining composure, following procedures, and educating customers, call centre\nstaff play a direct role in protecting lives and livelihoods from financial harm.\nHow Fraud Is Detected\nBank XXX’s fraud detection s",
+    "text": "possible recovery. Provide\nclear guidance on how and where to file — for example, via the SPF e-services portal or at the\nnearest police post. Immediately escalate the case to the bank’s fraud operations team with all\nrelevant details attached.\nStep 4 – Reassure and Educate\nOnce the account is secured and escalation completed, reassure the customer that the incident will\nbe reviewed thoroughly by the fraud team. Advise them on safe banking habits, such as not sharing\nOTPs, verifying caller identities, and avoiding third-party remote access tools. Emphasize that all\nfollow-ups will come only from official Bank XXX channels.\nKey Message\nFraud response is not only about stopping transactions — it is about preserving trust. Every officer\nmust act swiftly, verify carefully, and communicate com",
     "source": "docs/BankXXX_Call_Centre_Guide_Fraud_Awareness_and_Response.pdf#0"
   },
   {
     "id": "abs-0-6",
-    "text": "How Fraud Is Detected\nBank XXX’s fraud detection systems use a combination of transaction pattern analysis, device\nfingerprinting, behavioral monitoring, and customer reporting to identify possible fraud. Red flags\nmay include unusually large or urgent transfers, transactions to new payees added recently,\nmultiple limit changes in a short period, or transfers following a suspicious phone call or m",
-    "source": "docs/BankXXX_Call_Centre_Guide_Fraud_Awareness_and_Response.pdf#0"
-  },
-  {
-    "id": "abs-0-7",
-    "text": "r transfers following a suspicious phone call or message. If\nany of these indicators appear, officers should act immediately to secure the customer’s account.\nResponding to Suspected Fraud – 4 Key Steps\nStep 1 – Verify the Fraudulent Transaction and Secure the Account\nOnce the customer reports a suspicious or unauthorized transaction, calmly confirm the details —\nthe amount, time, payee, and chann",
-    "source": "docs/BankXXX_Call_Centre_Guide_Fraud_Awareness_and_Response.pdf#0"
-  },
-  {
-    "id": "abs-0-8",
-    "text": "m the details —\nthe amount, time, payee, and channel used. Secure all related accounts immediately by freezing\naccess, blocking cards, or disabling digital services. If available, guide the customer to trigger the\nKill Switch or equivalent emergency lock function.\nStep 2 – Protect Customer Information and Contain Exposure\n\nAssist the customer in changing passwords, disabling compromised devices, a",
-    "source": "docs/BankXXX_Call_Centre_Guide_Fraud_Awareness_and_Response.pdf#0"
-  },
-  {
-    "id": "abs-0-9",
-    "text": "anging passwords, disabling compromised devices, and reviewing linked\nservices. Ensure no further unauthorized logins can occur. Document all containment measures\nclearly in the internal system.\nStep 3 – Advise the Customer to Lodge a Police Report and Escalate Internally\nExplain that filing a police report is essential for formal investigation and possible recovery. Provide\nclear guidance on how",
-    "source": "docs/BankXXX_Call_Centre_Guide_Fraud_Awareness_and_Response.pdf#0"
-  },
-  {
-    "id": "abs-0-10",
-    "text": "possible recovery. Provide\nclear guidance on how and where to file — for example, via the SPF e-services portal or at the\nnearest police post. Immediately escalate the case to the bank’s fraud operations team with all\nrelevant details attached.\nStep 4 – Reassure and Educate\nOnce the account is secured and escalation completed, reassure the customer that the incident will\nbe reviewed thoroughly by",
-    "source": "docs/BankXXX_Call_Centre_Guide_Fraud_Awareness_and_Response.pdf#0"
-  },
-  {
-    "id": "abs-0-11",
-    "text": "r that the incident will\nbe reviewed thoroughly by the fraud team. Advise them on safe banking habits, such as not sharing\nOTPs, verifying caller identities, and avoiding third-party remote access tools. Emphasize that all\nfollow-ups will come only from official Bank XXX channels.\nKey Message\nFraud response is not only about stopping transactions — it is about preserving trust. Every officer\nmust",
-    "source": "docs/BankXXX_Call_Centre_Guide_Fraud_Awareness_and_Response.pdf#0"
-  },
-  {
-    "id": "abs-0-12",
     "text": "it is about preserving trust. Every officer\nmust act swiftly, verify carefully, and communicate compassionately. A structured, calm, and\nempathetic approach reassures victims, supports investigations, and strengthens public confidence\nin Bank XXX’s commitment to safety.",
     "source": "docs/BankXXX_Call_Centre_Guide_Fraud_Awareness_and_Response.pdf#0"
   },
   {
     "id": "uob-0-0",
-    "text": "How to manage your limits\nStep 1 : Login to UOB TMRW and tap “Transaction limits\". Step 2 : Select the limit you wish to change. Step 3 : Your current and new limit will be shown here. Step 4 : Review your new limit and swipe right to confirm. As a fraud control measure, there is a 12h cooling period before your limit increase takes effect. This does not apply for limit reductions. Step 5 : Next,",
-    "source": "uob_payments_transfer_services.json#0"
-  },
-  {
-    "id": "uob-0-1",
-    "text": "es not apply for limit reductions. Step 5 : Next, enter your digital token code as an added layer of security. This step is not required for limit reductions. Step 6 : Your change of transaction limit is successful.",
+    "text": "How to manage your limits\nStep 1 : Login to UOB TMRW and tap “Transaction limits\". Step 2 : Select the limit you wish to change. Step 3 : Your current and new limit will be shown here. Step 4 : Review your new limit and swipe right to confirm. As a fraud control measure, there is a 12h cooling period before your limit increase takes effect. This does not apply for limit reductions. Step 5 : Next, enter your digital token code as an added layer of security. This step is not required for limit reductions. Step 6 : Your change of transaction limit is successful.",
     "source": "uob_payments_transfer_services.json#0"
   },
   {
     "id": "uob-1-0",
-    "text": "How to add a payee\nStep 1 : Login to UOB TMRW and tap “Pay & Transfer\". Step 2 : Tap on \"Add Payee or Biller\" at the bottom of the screen. Step 3 : Select the funds transfer proxy type from the dropdown list. Step 4 : Review your recipient details by swiping to the right. Step 5 : As an added layer of security, you will be required to enter your digital token code to proceed. Step 6 : You will rec",
-    "source": "uob_payments_transfer_services.json#1"
-  },
-  {
-    "id": "uob-1-1",
-    "text": "gital token code to proceed. Step 6 : You will receive an SMS notification, confirming of your newly added payee. As a fraud control measure, there is a 12h cooling period before your new payee is added. This does not apply for payee removals.",
+    "text": "How to add a payee\nStep 1 : Login to UOB TMRW and tap “Pay & Transfer\". Step 2 : Tap on \"Add Payee or Biller\" at the bottom of the screen. Step 3 : Select the funds transfer proxy type from the dropdown list. Step 4 : Review your recipient details by swiping to the right. Step 5 : As an added layer of security, you will be required to enter your digital token code to proceed. Step 6 : You will receive an SMS notification, confirming of your newly added payee. As a fraud control measure, there is a 12h cooling period before your new payee is added. This does not apply for payee removals.",
     "source": "uob_payments_transfer_services.json#1"
   },
   {
     "id": "uob-2-0",
-    "text": "How to perform a funds transfer\nStep 1 : Login to UOB TMRW and tap “Pay & Transfer\". Step 2 : Tap on “My Accounts/ Cards“  if it is a transfer to your own account. Alternatively, you can tap on \"Other Accounts/ Cards“ for transfer to other accounts. Step 3 : Select the bank account to transfer to. Step 4 : The debiting account will be pre-selected from your last transaction. Enter the amount and d",
-    "source": "uob_payments_transfer_services.json#2"
-  },
-  {
-    "id": "uob-2-1",
-    "text": "from your last transaction. Enter the amount and date of transfer. Tap \"Next\" to proceed. Step 5 : In the confirmation screen, review the details and swipe right to confirm. Step 6 : You have successfully performed a funds transfer.",
+    "text": "How to perform a funds transfer\nStep 1 : Login to UOB TMRW and tap “Pay & Transfer\". Step 2 : Tap on “My Accounts/ Cards“  if it is a transfer to your own account. Alternatively, you can tap on \"Other Accounts/ Cards“ for transfer to other accounts. Step 3 : Select the bank account to transfer to. Step 4 : The debiting account will be pre-selected from your last transaction. Enter the amount and date of transfer. Tap \"Next\" to proceed. Step 5 : In the confirmation screen, review the details and swipe right to confirm. Step 6 : You have successfully performed a funds transfer.",
     "source": "uob_payments_transfer_services.json#2"
   },
   {
     "id": "uob-3-0",
-    "text": "How to perform a scheduled transfer\nStep 1 : Log in to UOB TMRW and tap on \"Pay & Transfer\". Step 2 : Tap on the Account you wish to pay or transfer the fund to. Step 3 : Input the amount you are transferring to. Next, tap on the calendar icon to select the date for the first fund transfer to be initiated. Step 4 : To setup a recurring fund transfer, you will need to select a future dated date. If",
+    "text": "How to perform a scheduled transfer\nStep 1 : Log in to UOB TMRW and tap on \"Pay & Transfer\". Step 2 : Tap on the Account you wish to pay or transfer the fund to. Step 3 : Input the amount you are transferring to. Next, tap on the calendar icon to select the date for the first fund transfer to be initiated. Step 4 : To setup a recurring fund transfer, you will need to select a future dated date. If you select \"Today\" as the date of transfer, it will be treated as a one off immediate fund transfer. Step 5 : Select the frequency of the recurring fund transfer (e.g. Once, Daily, Weekly, Monthly, Quarterly). Step 6 : Select the number of times you wish for the recurring fund transfer to take place You can select from 1 to 24, or \"Indefinite\" if there is no end date for this recurring fund trans",
     "source": "uob_payments_transfer_services.json#3"
   },
   {
     "id": "uob-3-1",
-    "text": "r, you will need to select a future dated date. If you select \"Today\" as the date of transfer, it will be treated as a one off immediate fund transfer. Step 5 : Select the frequency of the recurring fund transfer (e.g. Once, Daily, Weekly, Monthly, Quarterly). Step 6 : Select the number of times you wish for the recurring fund transfer to take place You can select from 1 to 24, or \"Indefinite\" if",
-    "source": "uob_payments_transfer_services.json#3"
-  },
-  {
-    "id": "uob-3-2",
     "text": "e You can select from 1 to 24, or \"Indefinite\" if there is no end date for this recurring fund transfer. Step 7 : You will be prompted to confirm that the transfer is to be sent to a payee that you know and trust. Tap on \"Continue\" to proceed. Step 8 : In the confirmation screen, check all details and swipe right to confirm. Step 9 : The recurring fund transfer setup is completed.",
     "source": "uob_payments_transfer_services.json#3"
   },
   {
     "id": "uob-4-0",
-    "text": "How to make an overseas QR payment\nStep 1 : Log in to UOB TMRW and select \"Scan to pay\". Step 2 : Scan the QR code or upload it from your device. Step 3 : The merchant details will be populated. Fill in the transaction amount in the local currency. An indicative exchange rate will be displayed. Click “Next” to proceed. Step 4 : Review and confirm the payment details. Step 5 : Click ‘Share’ to gene",
-    "source": "uob_payments_transfer_services.json#4"
-  },
-  {
-    "id": "uob-4-1",
-    "text": "he payment details. Step 5 : Click ‘Share’ to generate an image that shows the successful payment without your account details. It can be saved or shared with the merchant.",
+    "text": "How to make an overseas QR payment\nStep 1 : Log in to UOB TMRW and select \"Scan to pay\". Step 2 : Scan the QR code or upload it from your device. Step 3 : The merchant details will be populated. Fill in the transaction amount in the local currency. An indicative exchange rate will be displayed. Click “Next” to proceed. Step 4 : Review and confirm the payment details. Step 5 : Click ‘Share’ to generate an image that shows the successful payment without your account details. It can be saved or shared with the merchant.",
     "source": "uob_payments_transfer_services.json#4"
   },
   {
     "id": "uob-5-0",
-    "text": "How to Register and Pay with PayNow\nStep 1 : Log in to UOB TMRW and tap \"PayNow\". Step 2 : Tap on \"Setup\". Step 3 : Input registration details. The PayNow name you have set will be shown to your sender. If you are the sender, your full name will be shown to the recipient. Step 4 : Select the Bank account you wish to link to your mobile number and/or NRIC/FIN. Step 5 : Successful registration. Step",
-    "source": "uob_payments_transfer_services.json#5"
-  },
-  {
-    "id": "uob-5-1",
-    "text": "r NRIC/FIN. Step 5 : Successful registration. Step 6 : You may now receive money in real-time securely and instantly via PayNow.",
+    "text": "How to Register and Pay with PayNow\nStep 1 : Log in to UOB TMRW and tap \"PayNow\". Step 2 : Tap on \"Setup\". Step 3 : Input registration details. The PayNow name you have set will be shown to your sender. If you are the sender, your full name will be shown to the recipient. Step 4 : Select the Bank account you wish to link to your mobile number and/or NRIC/FIN. Step 5 : Successful registration. Step 6 : You may now receive money in real-time securely and instantly via PayNow.",
     "source": "uob_payments_transfer_services.json#5"
   },
   {
@@ -206,37 +116,22 @@
   },
   {
     "id": "uob-8-0",
-    "text": "How to transfer to Thailand mobile number (PromptPay)\nStep 1 : Login to UOB TMRW and tap “Pay & Transfer\". Step 2 : Tap \"PromptPay mobile no. (Thailand)\". Step 3 : Enter recipient's Thailand mobile number with country code (+66) or select their name from your address book. Tap \"Next\". Step 4 : Enter the amount in THB. You can transfer between THB 100 and the equivalent of S$1000 per day. Tap \"Next",
+    "text": "How to transfer to Thailand mobile number (PromptPay)\nStep 1 : Login to UOB TMRW and tap “Pay & Transfer\". Step 2 : Tap \"PromptPay mobile no. (Thailand)\". Step 3 : Enter recipient's Thailand mobile number with country code (+66) or select their name from your address book. Tap \"Next\". Step 4 : Enter the amount in THB. You can transfer between THB 100 and the equivalent of S$1000 per day. Tap \"Next\". Step 5 : You will be prompted to confirm that the transfer is sent to a payee that you know and trust. Tap on \"Continue\" to proceed. Step 6 : Review the details and swipe right to confirm. The above service fees is for illustration purpose and is currently waived. If the rate has expired, simply tap on \"Refresh\" to get a new exchange rate. Step 7 : Transfer complete! Tap on \"Share\" to send an i",
     "source": "uob_payments_transfer_services.json#8"
   },
   {
     "id": "uob-8-1",
-    "text": "00 and the equivalent of S$1000 per day. Tap \"Next\". Step 5 : You will be prompted to confirm that the transfer is sent to a payee that you know and trust. Tap on \"Continue\" to proceed. Step 6 : Review the details and swipe right to confirm. The above service fees is for illustration purpose and is currently waived. If the rate has expired, simply tap on \"Refresh\" to get a new exchange rate. Step",
-    "source": "uob_payments_transfer_services.json#8"
-  },
-  {
-    "id": "uob-8-2",
     "text": "tap on \"Refresh\" to get a new exchange rate. Step 7 : Transfer complete! Tap on \"Share\" to send an image of the transaction via your preferred social messaging app.",
     "source": "uob_payments_transfer_services.json#8"
   },
   {
     "id": "uob-9-0",
-    "text": "How to add biller\nStep 1 : Login to UOB TMRW and tap “Pay & Transfer\". Step 2 : Tap on \"Add payee or Biller\" at the bottom of the screen. Step 3 : Tap on \"Biller\" and type biller name or select from the dropdown list. Step 4 : Enter the details and tap on \"Next\". Step 5 : You will be prompted to confirm that the biller and bill reference no. are correct. Tap on \"Proceed\". Step 6 : Confirm the deta",
-    "source": "uob_payments_transfer_services.json#9"
-  },
-  {
-    "id": "uob-9-1",
-    "text": "rrect. Tap on \"Proceed\". Step 6 : Confirm the details by swiping right. Step 7 : You have successfully added your biller.",
+    "text": "How to add biller\nStep 1 : Login to UOB TMRW and tap “Pay & Transfer\". Step 2 : Tap on \"Add payee or Biller\" at the bottom of the screen. Step 3 : Tap on \"Biller\" and type biller name or select from the dropdown list. Step 4 : Enter the details and tap on \"Next\". Step 5 : You will be prompted to confirm that the biller and bill reference no. are correct. Tap on \"Proceed\". Step 6 : Confirm the details by swiping right. Step 7 : You have successfully added your biller.",
     "source": "uob_payments_transfer_services.json#9"
   },
   {
     "id": "uob-10-0",
-    "text": "How to pay bill\nStep 1 : Login to UOB TMRW and tap “Pay & Transfer\". Step 2 : Select \"Billers\". Step 3 : Select your billing organisation. If you wish to save this biller, refer to How to add biller. Step 4 : The debiting account will be pre-selected from your last transaction. Enter amount and payment date. Step 5 : You will be prompted to confirm that the transfer is sent to a payee that you kno",
-    "source": "uob_payments_transfer_services.json#10"
-  },
-  {
-    "id": "uob-10-1",
-    "text": "that the transfer is sent to a payee that you know and trust. Tap on \"Continue\" to proceed. Step 6 : Confirm the details by swiping right. Step 7 : Your bill payment is successful.",
+    "text": "How to pay bill\nStep 1 : Login to UOB TMRW and tap “Pay & Transfer\". Step 2 : Select \"Billers\". Step 3 : Select your billing organisation. If you wish to save this biller, refer to How to add biller. Step 4 : The debiting account will be pre-selected from your last transaction. Enter amount and payment date. Step 5 : You will be prompted to confirm that the transfer is sent to a payee that you know and trust. Tap on \"Continue\" to proceed. Step 6 : Confirm the details by swiping right. Step 7 : Your bill payment is successful.",
     "source": "uob_payments_transfer_services.json#10"
   },
   {
@@ -246,27 +141,17 @@
   },
   {
     "id": "uob-12-0",
-    "text": "How to perform a fund transfer to other Non-bank Financial Institutions (NFI)\nStep 1 : Log in to UOB TMRW and select \"Pay & Transfer\". Step 2 : Tap on \"Other Accounts / Cards\". Step 3 : Tap on \"New Transfer\". Step 4 : Go to \"Type\" field and select \"Bank Account/other institution\" from the dropdown list. Step 5 : Select \"Bank Accounts/other institution\". Step 6 : Select the \"Bank Accounts/other Ins",
+    "text": "How to perform a fund transfer to other Non-bank Financial Institutions (NFI)\nStep 1 : Log in to UOB TMRW and select \"Pay & Transfer\". Step 2 : Tap on \"Other Accounts / Cards\". Step 3 : Tap on \"New Transfer\". Step 4 : Go to \"Type\" field and select \"Bank Account/other institution\" from the dropdown list. Step 5 : Select \"Bank Accounts/other institution\". Step 6 : Select the \"Bank Accounts/other Institution\" from the dropdown list. Enter the account number to transfer to and tap “Next”. Step 7 : Enter the amount. Tap \"Next\" to proceed\". Step 8 : You will be prompted to confirm that the transfer is sent to a payee that you know and trust. Tap on \"Continue\" to proceed. Step 9 : In the confirmation screen, review the details and swipe right to confirm. Step 10 : Transfer completed! Tap on “Shar",
     "source": "uob_payments_transfer_services.json#12"
   },
   {
     "id": "uob-12-1",
-    "text": "ion\". Step 6 : Select the \"Bank Accounts/other Institution\" from the dropdown list. Enter the account number to transfer to and tap “Next”. Step 7 : Enter the amount. Tap \"Next\" to proceed\". Step 8 : You will be prompted to confirm that the transfer is sent to a payee that you know and trust. Tap on \"Continue\" to proceed. Step 9 : In the confirmation screen, review the details and swipe right to c",
-    "source": "uob_payments_transfer_services.json#12"
-  },
-  {
-    "id": "uob-12-2",
     "text": "on screen, review the details and swipe right to confirm. Step 10 : Transfer completed! Tap on “Share\" to send an image of the transaction via your preferred social messaging app.",
     "source": "uob_payments_transfer_services.json#12"
   },
   {
     "id": "uob-13-0",
-    "text": "How to perform a funds transfer using Cash Advance\nStep 1 : Log in to UOB TMRW and select \"Pay/Transfer\". Step 2 : Tap on \"My UOB Accounts/Cards\". Step 3 : Select the bank account to transfer to. Step 4 : Enter the amount and date of transfer. Tap \"Next\" to proceed. Step 5 : Click \"Yes\" to acknowledge and proceed with the Cash Advance transaction. Step 6 : In the confirmation screen, review the de",
-    "source": "uob_payments_transfer_services.json#13"
-  },
-  {
-    "id": "uob-13-1",
-    "text": "Step 6 : In the confirmation screen, review the details and swipe right to confirm. Step 7 : You have successfully performed a Cash Advance funds transfer.",
+    "text": "How to perform a funds transfer using Cash Advance\nStep 1 : Log in to UOB TMRW and select \"Pay/Transfer\". Step 2 : Tap on \"My UOB Accounts/Cards\". Step 3 : Select the bank account to transfer to. Step 4 : Enter the amount and date of transfer. Tap \"Next\" to proceed. Step 5 : Click \"Yes\" to acknowledge and proceed with the Cash Advance transaction. Step 6 : In the confirmation screen, review the details and swipe right to confirm. Step 7 : You have successfully performed a Cash Advance funds transfer.",
     "source": "uob_payments_transfer_services.json#13"
   },
   {

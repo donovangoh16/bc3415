@@ -32,7 +32,7 @@ DOC_SOURCES = [
 ]
 
 
-def chunk_text(text: str, chunk_size: int = 400, overlap: int = 50) -> List[str]:
+def chunk_text(text: str, chunk_size: int = 800, overlap: int = 100) -> List[str]:
     chunks: List[str] = []
     start = 0
     while start < len(text):
@@ -114,7 +114,12 @@ def build_and_save_index(force: bool = False):
     embeddings = HuggingFaceEmbeddings(model_name=EMBED_MODEL_NAME)
 
     print("[BUILD] Creating LangChain FAISS vector store...")
-    vectorstore = FAISS.from_texts(texts=texts, embedding=embeddings, metadatas=metadatas)
+    vectorstore = FAISS.from_texts(
+        texts=texts,
+        embedding=embeddings,
+        metadatas=metadatas,
+        normalize_L2=True,  # ensure cosine similarity scores downstream
+    )
 
     print(f"[BUILD] Saving vector store to {VECTOR_DIR}")
     vectorstore.save_local(str(VECTOR_DIR))

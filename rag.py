@@ -17,20 +17,26 @@ embeddings = None
 vectorstore = None
 _artifacts_loaded = False
 
-FIXED_REASON_TEMPLATE = "Transaction failed due to {category}."
-FIXED_QUERY_TEMPLATE = (
-    "Within 100 words, explain to the client why the transaction failed and guide them on the next steps."
-    "If the next steps require action on their end, include a step-by-step guide so they can follow it."
+BASE_INSTRUCTION = (
+    "You are a call-centre assistant helping explain why a bank transaction failed. "
+    "Use the retrieved context to answer factually and empathetically. "
+    "Always respond in valid JSON with keys: issue, solve, and step_by_step_guide (null if not needed). "
+    "Keep the entire response under 100 words."
 )
 
 PROMPT_TEMPLATE = PromptTemplate(
     input_variables=["context", "question"],
     template=(
-        "Use the context below to explain why the transaction failed, describe the next steps and any exception or items the user needs to know, and optionally provide a step-by-step guide if the user must act."
-        "Respond in JSON with keys: issue, solve, step-by-step guide (null when unnecessary)."
-        "Keep the total response under 100 words and maintain a clear, empathetic tone.\n\n"
-        "Context:\n{context}\n\nQuestion:\n{question}\n\nJSON Response:\n"
+        f"{BASE_INSTRUCTION}\n\n"
+        "Context:\n{context}\n\n"
+        "Question:\n{question}\n\n"
+        "JSON Response:"
     ),
+)
+
+QUESTION_TEMPLATE = (
+    "Transaction failed due to {category}. "
+    "Explain to the client why it failed and a step by step guide to fix the issue."
 )
 
 
@@ -57,7 +63,7 @@ def _ensure_vectorstore_loaded():
 def retrieve_context(query: str, top_k: int = 3):
     _ensure_vectorstore_loaded()
     print(f"[RAG] Retrieving context for query: {query!r} (top_k={top_k})")
-    docs_with_scores = vectorstore.similarity_search_with_score(query, k=top_k)
+    docs_with_scores = vectorstore.similarity_search_with_relevance_scores(query, k=top_k)
     results = []
     for rank, (doc, score) in enumerate(docs_with_scores):
         results.append(
@@ -90,12 +96,10 @@ def _build_qa_chain(top_k: int):
 
 
 def run_case(category: str, top_k: int = 3) -> dict:
-    reason = FIXED_REASON_TEMPLATE.format(category=category)
-    query = FIXED_QUERY_TEMPLATE
+    query = QUESTION_TEMPLATE.format(category=category)
     chunks = retrieve_context(query, top_k=top_k)
     qa_chain = _build_qa_chain(top_k)
-    question = f"{reason} | {query}"
-    answer = qa_chain.run(question)
+    answer = qa_chain.run(query)
     return {"chunks": chunks, "answer": answer}
 
 
@@ -113,11 +117,9 @@ def main():
     _ensure_vectorstore_loaded()
 
     for category in categories:
-        reason = FIXED_REASON_TEMPLATE.format(category=category)
         print("\n==============================")
         print(f"Scenario: {category}")
-        print(f"Reason: {reason}")
-        print(f"Query: {FIXED_QUERY_TEMPLATE}")
+        print(f"Query: {QUESTION_TEMPLATE.format(category=category)}")
         print(f"Top-K: {top_k}")
 
         result = run_case(category=category, top_k=top_k)
