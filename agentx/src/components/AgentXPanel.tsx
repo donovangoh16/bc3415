@@ -8,7 +8,7 @@ type AssistResult = {
   chunks: { id?: string; score?: number; source?: string; text?: string }[]
 }
 
-export default function AgentXPanel({ issueKey }: { issueKey: string }) {
+export default function AgentXPanel({ issueKey, onInsertToChat }: { issueKey: string; onInsertToChat?: (text: string) => void }) {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [data, setData] = useState<AssistResult | null>(null)
@@ -48,17 +48,42 @@ export default function AgentXPanel({ issueKey }: { issueKey: string }) {
     }
   }
 
+  const buildChatText = () => {
+    if (!data) return ''
+    const lines: string[] = []
+    if (data.issue) lines.push(`Issue: ${data.issue}`)
+    if (data.solve) lines.push(`Plan: ${data.solve}`)
+    if (data.step_by_step_guide?.length) {
+      lines.push('Steps:')
+      data.step_by_step_guide.forEach((s, i) => lines.push(`${i + 1}. ${s}`))
+    }
+    return lines.join('\n')
+  }
+
   return (
     <div className="rounded-xl bg-white/5 border border-white/10 p-4">
       <div className="flex items-center justify-between mb-3">
         <h3 className="font-medium">AgentX</h3>
-        <button
+        <div className="flex items-center gap-2">
+          <button
           onClick={onAssist}
           disabled={loading}
           className="px-3 py-1.5 text-sm rounded-md bg-accent/90 hover:bg-accent disabled:opacity-60"
-        >
-          {loading ? 'Working…' : 'Use AgentX'}
-        </button>
+          >
+            {loading ? 'Working…' : 'Use AgentX'}
+          </button>
+          <button
+            onClick={() => {
+              const txt = buildChatText()
+              if (txt && onInsertToChat) onInsertToChat(txt)
+            }}
+            disabled={loading || !data}
+            className="px-3 py-1.5 text-sm rounded-md border border-white/15 bg-white/5 hover:bg-white/10 disabled:opacity-60"
+            title={data ? 'Insert guidance into chat' : 'Run AgentX to get guidance first'}
+          >
+            Insert to Chat
+          </button>
+        </div>
       </div>
 
       {loading && (

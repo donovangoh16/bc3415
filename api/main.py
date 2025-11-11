@@ -2,6 +2,7 @@ import os
 import json
 import re
 from typing import List, Optional, Any, Dict
+from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
@@ -9,6 +10,7 @@ from pydantic import BaseModel
 
 # Reuse existing RAG pipeline
 from rag import run_case
+from build_index import DOC_SOURCES, CHUNKS_PATH
 
 
 ISSUE_MAP = {
@@ -145,7 +147,35 @@ def assist(issue: str = Query(..., description="One of: limit_exceeded, no_payee
     )
 
 
+class DocItem(BaseModel):
+    path: str
+    type: str
+    id_prefix: str
+
+
+class DocsResponse(BaseModel):
+    index_present: bool
+    docs: List[DocItem]
+
+
+@app.get("/api/docs", response_model=DocsResponse)
+def docs():
+    index_present = Path(CHUNKS_PATH).exists()
+
+    items: List[DocItem] = []
+    for cfg in DOC_SOURCES:
+        p = str(cfg.get("path"))
+        items.append(
+            DocItem(
+                path=p,
+                type=str(cfg.get("type")),
+                id_prefix=str(cfg.get("id_prefix")),
+            )
+        )
+
+    return DocsResponse(index_present=index_present, docs=items)
+
+
 @app.get("/api/health")
 def health():
     return {"ok": True}
-

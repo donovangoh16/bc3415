@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom'
-import { demoChats } from '../data/chats'
+import { useEffect, useMemo, useState } from 'react'
+import { demoChats, type ChatMessage } from '../data/chats'
 import ChatWindow from '../components/ChatWindow'
 import AgentXPanel from '../components/AgentXPanel'
 
@@ -13,6 +14,35 @@ export default function ChatDetail() {
     fraud: 'bank flagged as fraud',
   }
   const reason = reasonLabels[key] || key
+
+  const [messages, setMessages] = useState<ChatMessage[]>(data?.messages || [])
+  const [compose, setCompose] = useState('')
+  const [sending, setSending] = useState(false)
+
+  useEffect(() => {
+    // Reset when navigating to a different issue
+    setMessages(demoChats[key]?.messages || [])
+    setCompose('')
+    setSending(false)
+  }, [key])
+
+  const nowTime = () => {
+    const d = new Date()
+    const h = d.getHours()
+    const hh = ((h + 11) % 12) + 1
+    const mm = String(d.getMinutes()).padStart(2, '0')
+    const ampm = h >= 12 ? 'PM' : 'AM'
+    return `${hh}:${mm} ${ampm}`
+  }
+
+  const handleSend = async () => {
+    if (!compose.trim()) return
+    setSending(true)
+    setMessages((prev) => [...prev, { role: 'agent', text: compose.trim(), time: nowTime() }])
+    setCompose('')
+    // Simulate quick send
+    setTimeout(() => setSending(false), 300)
+  }
 
   if (!data) {
     return (
@@ -39,10 +69,20 @@ export default function ChatDetail() {
 
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
         <div className="lg:col-span-3">
-          <ChatWindow messages={data.messages} />
+          <ChatWindow
+            messages={messages}
+            editable
+            inputValue={compose}
+            onInputChange={setCompose}
+            onSend={handleSend}
+            sending={sending}
+          />
         </div>
         <div className="lg:col-span-2">
-          <AgentXPanel issueKey={key} />
+          <AgentXPanel
+            issueKey={key}
+            onInsertToChat={(txt) => setCompose(txt)}
+          />
         </div>
       </div>
     </div>
